@@ -9,7 +9,7 @@ export function cacheFn() {
         }, 5000);
       });
     },
-    [],
+    ["foo"],
     { revalidate: 60 * 60 * 24 }
   )();
 }
